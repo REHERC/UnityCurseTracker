@@ -43,8 +43,8 @@ namespace UnityCurseTracker
             {
 
             }
-            string title = "Unity'd in " + G.Sys.GameManager_.LevelSettings_.LevelName_;
-            string description = "Screenshot saved";
+            string title = "Unityd - " + G.Sys.GameManager_.LevelSettings_.LevelName_;
+            string description = "Screenshot saved.";
             NotificationBox.Notification n = new NotificationBox.Notification(title, description, NotificationBox.NotificationType.Car, 6f);
             NotificationBox.Show(n, false);
         }
